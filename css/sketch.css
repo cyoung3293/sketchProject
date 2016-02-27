@@ -1,0 +1,22 @@
+.wrapper {
+	width: 1000px;
+	height: 1000px;
+	border: 2px solid black;
+}
+
+.grid {
+	display: inline-block;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	width: 996px;
+	height: 996px;
+	background-color: #f0f0f0;
+}
+
+.initializer {
+	padding-left: 2px;
+}
+
+.wrapper { white-space: nowrap; }
+.content-top > div { white-space: normal; }
