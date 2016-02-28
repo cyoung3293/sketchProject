@@ -1,21 +1,30 @@
 .wrapper {
-	width: 1000px;
-	height: 1000px;
+	width: 500px;
+	height: 500px;
 	border: 2px solid black;
+	padding-top: 2px;
+	padding-left: 2px;
 }
 
 .grid {
-	display: inline-block;
-	padding-right: 2px;
-	padding-top: 2px;
-	padding-bottom: 2px;
-	width: 996px;
-	height: 996px;
+	float: left;
+	margin-right: 2px;
+	margin-bottom: 2px;
+	width: 500px;
+	height: 500px;
 	background-color: #f0f0f0;
 }
 
 .initializer {
-	padding-left: 2px;
+	
+}
+
+.top {
+	
+}
+
+.clear {
+	clear: both;
 }
 
 .wrapper { white-space: nowrap; }
